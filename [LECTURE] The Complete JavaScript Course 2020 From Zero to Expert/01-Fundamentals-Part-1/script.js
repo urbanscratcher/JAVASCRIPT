@@ -327,6 +327,35 @@ if (day === "monday") {
 } else if (day === "saturday" || day === "sunday") {
   console.log(`Enjoy the weekend :D`);
 }
-*/
 
 // ---27. STATEMENTS AND EXPRESSIONS
+if (23 > 10) {
+  const str = `12 is bigger`;
+}
+// expressions produce values
+// statements are like full sentences that translate our actions
+
+const me = `Joun`;
+console.log(`I'm ${2037 - 1989} years old ${me}`);
+
+
+// ---28. THE CONDITIONAL (TERNARY) OPERATOR
+// 삼항연산자 (expressions -> produces value)
+const age = 23;
+age >= 18
+  ? console.log(`I like to drink wine 🍷`)
+  : console.log(`I like to drink milk 🥛`);
+
+const drink = age >= 18 ? `wine 🍷` : `milk 🥛`;
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = `wine 🍷`;
+} else {
+  drink2 = `milk 🥛`;
+}
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? `wine 🍷` : `milk 🥛`}`);
+*/
