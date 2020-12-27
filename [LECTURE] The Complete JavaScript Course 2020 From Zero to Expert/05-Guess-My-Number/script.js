@@ -13,7 +13,7 @@ document.querySelector(`.score`).textContent = 10;
 
 document.querySelector(`.guess`).value = 23;
 console.log(document.querySelector(`.guess`).value);
-
+*/
 
 //  73-78.
 
@@ -84,5 +84,3 @@ document.querySelector(`.again`).addEventListener(`click`, function () {
   document.querySelector(`body`).style.backgroundColor = `#222`;
   document.querySelector(`.number`).style.width = `15rem`;
 });
- */
-//
